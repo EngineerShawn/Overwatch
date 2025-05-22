@@ -1,0 +1,8 @@
+title: Overwatch
+
+remote_theme: overwatch/tactile
+
+plugins:
+- jekyll-remote-theme
+
+include: contributing.md

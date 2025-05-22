@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/print.css' | relative_url }}" media="print">
+    {% seo %}
+    {% include head-custom.html %}
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+        <header>
+          <h1><a href="https://EngineerShawn.github.io/Overwatch/" style="text-decoration:none;color:#ffffff">Overwatch</a></h1>
+          <h2><a href="https://github.com/EngineerShawn/Overwatch">Github</a> | <a href="https://github.com/EngineerShawn/Overwatch/archive/refs/heads/overwatch.zip">Download</a> | <a href="/Overwatch/faq">FAQ</a> | <a href="/Overwatch/commands">Commands</a> | <a href="/Overwatch/config">Config</a> | <a href="/Overwatch/exports">Exports</a></h2>
+        </header>
+        <hr>
+        <section id="main_content">
+          {{ content }}
+        </section>
+
+        <footer>
+            <a href="https://github.com/EngineerShawn/Overwatch">Github</a> | <a href="/Overwatch/changelog">Changelog</a> | <a href="/Overwatch/contributing">Contributing</a><br>
+            Overwatch is maintained by <a href="https://github.com/EngineerShawn">EngineerPatterson</a><br>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
